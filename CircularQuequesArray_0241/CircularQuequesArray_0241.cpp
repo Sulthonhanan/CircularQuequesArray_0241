@@ -1,5 +1,4 @@
-// CircularQuequesArray_0241.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// CircularQuequesArray_0241.cpp 
 
 #include <iostream>
 using namespace std;
@@ -80,7 +79,7 @@ public:
 
 		cout << "\nElements in the queue are...\n";
 
-		//jika FRONT <= REAR, iterasi dari FRONT hingga REAR
+		//jika FRONT <= REAR, iterasi dari FRONT hingga REAR // ini adalah cara mengecek rear dan front
 		if (FRONT_Position <= REAR_Position) {
 			while (FRONT_Position <= REAR_Position) {
 				cout << queue_array[FRONT_Position] << " ";
