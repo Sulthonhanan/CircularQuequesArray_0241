@@ -116,7 +116,7 @@ int main() {
 
 	while (true) {
 		try {
-			cout << "Menu" << endl; 
+			cout << "Menu" << endl;  // membuat tampilan menu
 			cout << "1. Implement insert operation" << endl;
 			cout << "2. Implement delete operation" << endl;
 			cout << "3. Display Values" << endl;
@@ -128,7 +128,7 @@ int main() {
 			switch (ch) {
 			case '1': {
 
-				q.insert();
+				q.insert(); // masukan nilai
 				break;
 			}
 			case '2': {
